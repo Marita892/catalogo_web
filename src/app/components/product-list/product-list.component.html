@@ -1,0 +1,7 @@
+<mat-toolbar >
+    <img class="logo" src="imag/logo.jpeg" />
+    <div class="Lista">
+      <a mat-button *ngFor="let item of list" (click)="EnvioCategoria(item.nombre)" > {{item.nombre}}</a> 
+    </div>
+</mat-toolbar>
+

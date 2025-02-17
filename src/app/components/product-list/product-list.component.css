@@ -1,0 +1,22 @@
+.mat-toolbar{
+    background-color: rgb(209, 212, 218);
+    color: rgb(247, 247, 247);
+    align-items: center;
+    -webkit-box-align: center;
+
+  }
+  .mat-button { 
+    color: rgb(244, 238, 238);
+  }
+  
+  .Lista{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    color: rgb(244, 238, 238)
+  }
+  .logo {
+    max-width: 5.2rem;
+  }

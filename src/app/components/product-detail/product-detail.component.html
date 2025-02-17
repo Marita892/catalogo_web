@@ -1,0 +1,22 @@
+
+<div>
+  <h2> Detalle Producto</h2>
+  <mat-card class="example-card" >
+    <mat-card-header>
+      <mat-card-title-group>
+        <mat-card-title>{{product?.nombre}}</mat-card-title>
+        <mat-card-subtitle>{{product?.categoria}}</mat-card-subtitle>
+        <mat-card-subtitle>Bs.{{product?.precio}}</mat-card-subtitle>
+       
+        <img mat-card-xl-image src={{product?.imagen}} >
+      </mat-card-title-group>
+    </mat-card-header>
+    <mat-card-content>
+     
+      <button  mat-stroked-button>Agregar a Carrito de Compras</button>
+      <button mat-flat-button (click)="goToList()">Volver</button>
+     
+    </mat-card-content>
+  </mat-card>
+
+</div>
