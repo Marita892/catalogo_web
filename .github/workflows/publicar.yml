@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - uses: actions/checkout@v4
-      - run: npm i
-      - run: npm install -g @angular/cli@latest
-      - run: ng build
+      - run:  npm i
+      - run:  npm install -g @angular/cli@latest
+      - run:  ng build
