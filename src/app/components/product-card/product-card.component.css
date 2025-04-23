@@ -9,4 +9,5 @@
 
   .imagenes {
     max-width: 6.2rem;
+    width:640; height:360;
   }
