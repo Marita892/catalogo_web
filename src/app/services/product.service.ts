@@ -8,16 +8,16 @@ import { Categoria, Product ,ListProduct} from '../model/product.model';
 export class ProductService {
 
   private products : Product[]=[
-    {id:1,nombre:'Adidas Lite Racer 3.0',precio:550,tipo:"Novedades",categoria:"Hombre",imagen:"imag/racer3.jpeg"},
-    {id:2,nombre:"Adidas Duramo RC",precio:620,tipo:"Novedades",categoria:"Hombre",imagen:"imag/duramoRC.jpeg"},
-    {id:3,nombre:"Adidas Hoops 3.0",precio:750,tipo:"Novedades",categoria:"Hombre",imagen:"imag/duramoRC.jpeg"},
+    {id:1,nombre:'Adidas Lite Racer 3.0',precio:550,tipo:"Novedades",categoria:"Hombre",imagen:"imag/racer3.avif"},
+    {id:2,nombre:"Adidas Duramo RC",precio:620,tipo:"Novedades",categoria:"Hombre",imagen:"imag/duramoRC.avif"},
+    {id:3,nombre:"Adidas Hoops 3.0",precio:750,tipo:"Novedades",categoria:"Hombre",imagen:"imag/duramoRC.avif"},
     
-    {id:4,nombre:'Adidas Copa Pure II',precio:650,tipo:"Novedades",categoria:"Hombre",imagen:"imag/copapureII.jpeg"},
-    {id:5,nombre:"Adidas Predator Club",precio:620,tipo:"Novedades",categoria:"Hombre",imagen:"imag/predatorclub.jpeg"},
-    {id:6,nombre:"Adidas Goleto VIII",precio:520,tipo:"Oferta",categoria:"Hombre",imagen:"imag/goleto8.jpeg"},
-    {id:7,nombre:"Nike Tiempo Legend",precio:580,tipo:"Novedades",categoria:"Hombre",imagen:"imag/tiempolengend.jpeg"},
-    {id:8,nombre:"Adidas Crazy Fast",precio:650,tipo:"Novedades",categoria:"Hombre",imagen:"imag/duramoRC.jpeg"},
-    {id:9,nombre:"Adidas Grand Court TD Casual",precio:620,tipo:"Novedades",categoria:"Mujer",imagen:"imag/courtcasual.jpeg"},
+    {id:4,nombre:'Adidas Copa Pure II',precio:650,tipo:"Novedades",categoria:"Hombre",imagen:"imag/copapureII.avif"},
+    {id:5,nombre:"Adidas Predator Club",precio:620,tipo:"Novedades",categoria:"Hombre",imagen:"imag/predatorclub.avif"},
+    {id:6,nombre:"Adidas Goleto VIII",precio:520,tipo:"Oferta",categoria:"Hombre",imagen:"imag/goleto8.avif"},
+    {id:7,nombre:"Nike Tiempo Legend",precio:580,tipo:"Novedades",categoria:"Hombre",imagen:"imag/tiempolengend.avif"},
+    {id:8,nombre:"Adidas Crazy Fast",precio:650,tipo:"Novedades",categoria:"Hombre",imagen:"imag/duramoRC.avif"},
+    {id:9,nombre:"Adidas Grand Court TD Casual",precio:620,tipo:"Novedades",categoria:"Mujer",imagen:"imag/courtcasual.avif"},
   ];
 
   private cate : Categoria[]=[
