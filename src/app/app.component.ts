@@ -36,5 +36,10 @@ this.productService.getProduct().subscribe(products => this.list=products);
     console.log('Go to detail',product);
     this.router.navigate(['/product',product.id]);
   }
+
+  public goToLogin(){
+    console.log('Go to login');
+    this.router.navigate(['/boton']);
+  }
    
 }
