@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+/*import { Component } from '@angular/core';
 import { Router,RouterModule,RouterOutlet } from '@angular/router';
 import { ProductListComponent } from "./components/product-list/product-list.component";
 import { ProductCardComponent } from "./components/product-card/product-card.component";
@@ -22,14 +22,14 @@ export class AppComponent {
 
   mensajeCategoria(nombre:string)
   {
-    /*  this.productService.getProductByCate(nombre).subscribe(products => {
-  if (products) {
+    ///  this.productService.getProductByCate(nombre).subscribe(products => {
+  //if (products) {
     this.list = products ;
-  } else {
-    this.list = [];  // Asignar un arreglo vacío si no hay productos
-  }}
-);*/
-this.productService.getProduct().subscribe(products => this.list=products);
+ // } else {
+ //   this.list = [];  // Asignar un arreglo vacío si no hay productos
+//  }}
+//);
+    this.productService.getProduct().subscribe(products => this.list=products);
    }
 
   public goToDetail(product: Product){
@@ -42,4 +42,19 @@ this.productService.getProduct().subscribe(products => this.list=products);
     this.router.navigate(['/boton']);
   }
    
+}*/
+
+import { Component } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+
+@Component({
+  selector: 'app-root',
+  standalone: true, // Esto debe estar si estás usando Angular standalone
+  imports: [RouterOutlet],
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  title = 'CatalogoProductos';
 }
+
